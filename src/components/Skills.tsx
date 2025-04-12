@@ -22,8 +22,7 @@ const Skills = () => {
         { name: 'Selenium WebDriver', level: 90 },
         { name: 'Cypress', level: 85 },
         { name: 'Appium', level: 80 },
-        { name: 'TestCafe', level: 75 },
-        { name: 'Playwright', level: 80 },
+      
       ]
     },
     {
@@ -31,9 +30,7 @@ const Skills = () => {
       skills: [
         { name: 'JMeter', level: 85 },
         { name: 'LoadRunner', level: 80 },
-        { name: 'Gatling', level: 70 },
-        { name: 'k6', level: 75 },
-        { name: 'Locust', level: 65 },
+       
       ]
     },
     {
@@ -42,8 +39,7 @@ const Skills = () => {
         { name: 'Postman', level: 95 },
         { name: 'SoapUI', level: 85 },
         { name: 'RestAssured', level: 80 },
-        { name: 'Karate DSL', level: 75 },
-        { name: 'Pact (Contract Testing)', level: 70 },
+      
       ]
     },
     {
@@ -62,8 +58,7 @@ const Skills = () => {
         { name: 'Python', level: 90 },
         { name: 'Java', level: 85 },
         { name: 'JavaScript', level: 80 },
-        { name: 'TypeScript', level: 75 },
-        { name: 'C#', level: 70 },
+       
       ]
     },
   ];

@@ -59,7 +59,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                      linkedin.com/in/johndoe
+                      https://www.linkedin.com/in/malsha-jayawardena/
                     </a>
                   </div>
                 </div>

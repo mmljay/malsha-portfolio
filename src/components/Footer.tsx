@@ -78,7 +78,7 @@ const Footer = () => {
         
         <div className="border-t border-platinum/20 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-platinum/60 text-sm">
-            &copy; {currentYear} John Doe. All rights reserved.
+            &copy; {currentYear} Malsha Jayawardena. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-sm">

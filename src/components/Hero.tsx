@@ -11,12 +11,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <div className="lg:col-span-3 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-Green dark:text-platinum">
-            Malsha Jayawardena
-            Strategic QA Specialist 
+          <h1 className="font-bold mb-4">
+  <span className="block text-2xl md:text-4xl text-green dark:text-platinum">
+    Malsha Jayawardena
+  </span>
+  <span className="block text-4xl md:text-5xl lg:text-6xl text-green dark:text-platinum">
+    Strategic QA Specialist
+  </span>
+</h1>
 
-              <span className="block text-4xl md:text-3xl"></span>
-            </h1>
             
             <h2 className="text-xl md:text-2xl font-semibold mb-6 text-teal">
             Shaping quality software through smart testing strategies
@@ -29,12 +32,9 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-teal hover:bg-teal/90 text-white">
-                <span>View Portfolio</span>
-                <ArrowDown className="ml-2 h-4 w-4" />
-              </Button>
               
-              <Button variant="outline" className="border-navy dark:border-platinum text-navy dark:text-platinum">
+              
+              <Button variant="outline" className="border-navy dark:border-platinum text-navy dark:text-platinum" onClick={() => window.open('https://drive.google.com/file/d/1CRn81oVzXBuKyI8hOqVMAS9rVRgyTIo6/view?usp=drive_link', '_blank')}>
                 <FileText className="mr-2 h-4 w-4" />
                 <span>Download Resume</span>
               </Button>
@@ -60,7 +60,7 @@ const Hero = () => {
                     <p className="text-sm text-navy/80 dark:text-platinum/80">Automation Coverage</p>
                   </div>
                   <div className="text-center p-4 bg-navy/5 dark:bg-platinum/5 rounded-lg">
-                    <p className="text-4xl font-bold text-teal mb-2">10+</p>
+                    <p className="text-4xl font-bold text-teal mb-2">6+</p>
                     <p className="text-sm text-navy/80 dark:text-platinum/80">Years Experience</p>
                   </div>
                   <div className="text-center p-4 bg-navy/5 dark:bg-platinum/5 rounded-lg">
@@ -73,16 +73,16 @@ const Hero = () => {
                   <h3 className="text-lg font-semibold text-navy dark:text-platinum mb-2">Certifications</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy/10 dark:bg-platinum/10 text-navy dark:text-platinum">
-                      ISTQB Advanced
+                      ISTQB Cetified
                     </span>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy/10 dark:bg-platinum/10 text-navy dark:text-platinum">
-                      AWS Certified
+                      Manual testing
                     </span>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy/10 dark:bg-platinum/10 text-navy dark:text-platinum">
                       Selenium Expert
                     </span>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy/10 dark:bg-platinum/10 text-navy dark:text-platinum">
-                      CSPO
+                      
                     </span>
                   </div>
                 </div>
